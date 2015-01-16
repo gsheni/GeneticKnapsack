@@ -14,14 +14,13 @@ Here are the basic steps in the genetic algorithm:
 1.	Generate a random population of m chromosomes.
 
 2.	Repeated change the population until your fitness criteria is satisfied.
-    *a.	Evaluate the fitness of each chromosome x in the population using a fitness function of your own creation.
-b.	Select the two most-fit chromosomes from the population.  
-c.	Using a crossover probability (that you create yourself), “cross over” the parents to form a new offspring.  (You should determine your own probability.)
-d.	Using a mutation probability (that you create yourself), determine if each position in the chromosome should be mutated or not.  The mutation probability should be low.
-e.	Place the new offspring in the population.
+      a.	Evaluate the fitness of each chromosome x in the population using a fitness function of your own creation.
+      b.	Select the two most-fit chromosomes from the population.  
+      c.	Using a crossover probability (that you create yourself), “cross over” the parents to form a new offspring.  (You should determine your own probability.)
+      d.	Using a mutation probability (that you create yourself), determine if each position in the chromosome should be mutated or not.  The mutation probability should be low.
+      e.	Place the new offspring in the population.
 3.	When the end condition is satisfied, return the best solution in the final population of chromosomes.
 
-Input to your Program
 A file called knapsack.txt, has these values in the order given:
 number of objects N
 capacity
