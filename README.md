@@ -1,12 +1,10 @@
-The Knapsack Problem
+#The Knapsack Problem
 
 The knapsack problem is a classic NP-complete problem that has been studied extensively in computer science.  
 
 One way to solve this problem is to do an exhaustive search through all the possible combinations of objects in the knapsack, compare the weights and values, and choose the combination of objects that fits within the capacity and has the greatest value.  This takes a long time, computationally.
 
 A less computationally-expensive method is to use a genetic algorithm.  The genetic algorithm may not find the very best answer, but in most cases it finds a very good solution in a reasonable amount of time.
-
-Solving the Knapsack Problem with a Genetic Algorithm
 
 For this problem, a list of integers that are 0 or 1 to represent your population of possible solutions.  
 For example, assuming that you have eight objects, the list {0, 1, 0, 1, 1, 0, 0, 1} means that you are taking the items 2, 4, 5, and 8 in the knapsack.
