@@ -46,5 +46,5 @@ object 2’s value
 
 object N’s weight
 
-object N’s value```
+object N’s value
 
