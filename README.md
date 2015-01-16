@@ -29,7 +29,7 @@ Here are the basic steps in the genetic algorithm:
 
 A file called knapsack.txt, has these values in the order given:
 
-`<number of objects N
+`number of objects N
 
 capacity
 
@@ -45,5 +45,5 @@ object 2’s value
 
 object N’s weight
 
-object N’s value>`
+object N’s value`
 
