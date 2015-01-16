@@ -9,8 +9,6 @@ import java.io.InputStreamReader; // for parsing the text file.
 /*
  * Gaurav Sheni
  * November 25, 2014
- * CSC 371
- * Project 4 - Genetic Algorithm
  */
 
 public class GeneticKnapsack {
