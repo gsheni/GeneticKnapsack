@@ -10,9 +10,11 @@ For this problem, a list of integers that are 0 or 1 to represent your populatio
 For example, assuming that you have eight objects, the list {0, 1, 0, 1, 1, 0, 0, 1} means that you are taking the items 2, 4, 5, and 8 in the knapsack.
 
 Here are the basic steps in the genetic algorithm:
+
 1.	Generate a random population of m chromosomes.
+
 2.	Repeated change the population until your fitness criteria is satisfied.
-a.	Evaluate the fitness of each chromosome x in the population using a fitness function of your own creation.
+    *a.	Evaluate the fitness of each chromosome x in the population using a fitness function of your own creation.
 b.	Select the two most-fit chromosomes from the population.  
 c.	Using a crossover probability (that you create yourself), “cross over” the parents to form a new offspring.  (You should determine your own probability.)
 d.	Using a mutation probability (that you create yourself), determine if each position in the chromosome should be mutated or not.  The mutation probability should be low.
